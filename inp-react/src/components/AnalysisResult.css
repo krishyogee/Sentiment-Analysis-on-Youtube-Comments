@@ -1,0 +1,51 @@
+/* AnalysisResult.css */
+
+  
+  .result-row {
+    display: flex;
+    width: 100%;
+  }
+  
+  .result-box {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    flex: 1; /* Distribute space evenly between boxes in the row */
+  }
+  
+  .result-box h3 {
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .result-box1 {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    /* Increase the height value for better visibility and centering */
+    height: 30px;
+    /* Center the text vertically */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-box1 p {
+    margin-left: 5px;
+}
+
+.result-box2 {
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    flex: 1; /* Distribute space evenly between boxes in the row */
+  }
